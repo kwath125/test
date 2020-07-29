@@ -1,0 +1,13 @@
+/* What We Do 섹션 */
+/* 아이콘과 글의 위치를 일렬로 */
+#what .items .item{
+  display: flex;
+  text-align: left;
+}
+#what .items .item i{
+  margin-right: 1.3rem;
+  align-self: center;
+  margin-bottom: 0;
+}
+/* Contact 섹션 지도를 넓게 */
+#contact .map{flex:2;}
